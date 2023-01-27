@@ -8,7 +8,7 @@ call plug#begin(plugged)
     Plug 'preservim/tagbar'
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
-    Plug 'preservim/nerdcommenter'
+    Plug 'tpope/vim-commentary'
     Plug 'raimondi/delimitmate'
     Plug 'airblade/vim-gitgutter'
     Plug 'editorconfig/editorconfig-vim'
@@ -30,9 +30,8 @@ call plug#begin(plugged)
     " === JAVASCRIPT === "
     Plug 'jelera/vim-javascript-syntax'
 
-    " === PYTHON === "
-    Plug 'davidhalter/jedi-vim'
-    Plug 'raimon49/requirements.txt.vim', {'for': 'requirements'}
+    " === RUBY === "
+    Plug 'tpope/vim-endwise'
 
     " === RUST === "
     Plug 'racer-rust/vim-racer'

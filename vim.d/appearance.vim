@@ -1,7 +1,7 @@
 " ===== APPEARANCE ===== "
 
 syntax on
-colorscheme default
+colorscheme slate
 set cmdheight=2
 set showcmd
 set ruler

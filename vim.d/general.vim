@@ -1,4 +1,4 @@
-" ===== GENERAL ===== "
+" === GENERAL === "
 
 set nocompatible
 set nobackup

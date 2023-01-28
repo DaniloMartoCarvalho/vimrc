@@ -1,7 +1,6 @@
 " ===== PLUGINS ===== "
 
 call plug#begin(plugged)
-    Plug 'yggdroot/indentline'
     Plug 'itchyny/lightline.vim'
     Plug 'ryanoasis/vim-devicons'
     Plug 'preservim/nerdtree'
@@ -37,21 +36,7 @@ call plug#begin(plugged)
     Plug 'racer-rust/vim-racer'
     Plug 'rust-lang/rust.vim'
 
-    " === SVELTE === "
-    Plug 'leafOfTree/vim-svelte-plugin'
-
-    " === TYPESCRIPT === "
-    Plug 'leafgarland/typescript-vim'
-    Plug 'HerringtonDarkholme/yats.vim'
-
 call plug#end()
-
-" === yggdroot/indentline === "
-let g:indentLine_char = '┊'
-let g:indentline_setColors = 0
-let g:indentLine_leadingSpaceChar = '.'
-let g:indentLine_leadingSpaceEnabled = 1
-let g:vim_json_syntax_conceal = 0
 
 " === preservim/nerdtree === "
 nnoremap <F3> :NERDTreeToggle<CR>
@@ -69,11 +54,6 @@ nnoremap <F4> :TagbarToggle<CR>
 
 " === junegunn/fzf === "
 nnoremap <C-p> :Files<CR>
-
-
-" === preservim/nerdcommenter === "
-let g:NERDSpaceDelims = 1
-let g:NERDCompactSexyComs = 1
 
 " === dense-analysis/ale === "
 let g:ale_fix_on_save = 1

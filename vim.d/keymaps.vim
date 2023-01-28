@@ -20,7 +20,6 @@ nnoremap <Tab> gt
 nnoremap <S-Tab> gT
 nnoremap <leader><Tab> :tabnew<CR>
 
-
 noremap <leader>q :bp<CR>
 noremap <leader>w :bn<CR>
 
